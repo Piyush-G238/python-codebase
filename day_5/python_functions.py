@@ -7,9 +7,13 @@ greet()
 
 # program 2
 def add(num1, num2):
-    return num1 + num2
+    return num1 + num2, num1 - num2
 
-print(add(3, 6))
+# print(add(3, 6))
+res1, res2 = add(num2 = 6, num1 = 3)
+print(type(add(3, 6)))
+print(res1)
+print(res2)
 
 # program 3
 def square(num):
@@ -55,3 +59,13 @@ def print_info(**kwargs):
 
 print(print_info(name = "Piyush the developer", age = 26, language = "Java"))
 print(print_info(youtube_channel_name="Piyush The Developer", subscribers = 15, owner = "Piyush Gupta"))
+
+def getValueWithOutKnowingParameter(*param):
+    return param[0] + param[1]
+
+print(getValueWithOutKnowingParameter(2,5))
+
+def getValueWithOutKnowingParameter(**param):
+    return param['num1'] + param['num2'] 
+
+print(getValueWithOutKnowingParameter(num2 =5, num1 =5))

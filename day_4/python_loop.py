@@ -1,11 +1,15 @@
 # program 1
-fruits = ["Apple", "Banana", "Cherry"]
+fruits = ("Apple", "Banana", "Cherry")
 for fruit in fruits:
     print(fruit)
 
 # program 2
 for i in range(5): # 0 to n-1
     print(i)
+
+key_value_pair = {"name": "piyush", "designation": "engineer"}
+for k,v in key_value_pair.items():
+    print(f"{k} : {v}")
 
 # program 3
 student_scores = [68, 78, 49, 120, 113, 184, 24, 59, 68, 199, 65, 89]

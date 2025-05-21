@@ -7,8 +7,10 @@
 age = 18
 if age < 18:
     print("You are not eligible for driving vehicles")
-else:
-    print("Your are eligible for driving vehicles")
+    print("inside if statement")
+print("outside if statement")
+# else:
+    # print("Your are eligible for driving vehicles")
 
 # program_2
 num = 5
@@ -38,6 +40,9 @@ if customer_height > 120:
     print("Yes! you can ride on rollercoaster")
     if customer_age < 12:
         total_fare = 5
+    elif customer_age > 12 and customer_age <= 18:
+        total_fare = 7
+        
     elif customer_age > 12 and customer_age <= 18:
         total_fare = 7
     else:

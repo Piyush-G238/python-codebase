@@ -28,10 +28,11 @@ isReady = True
 nums = [1, 2, 3]
 
 # tuple - ordered and immutable collection
-t = (1, 2)
+t = (1, 2, 4, 67, 88, "Piyush")
 
-# dict - key value pair (like hashmap)
-developerRating = {"name": "Piyush the developer", "rating": 5.0}
+# dict - key value pair (like hashmap)dictionary
+developerRating = {"name": "Piyush the developer", "rating": 5.0, "name": "vishal"}
+print(developerRating)
 
 # set - unordered collection having unique elements
 s = {1, 2, 3}

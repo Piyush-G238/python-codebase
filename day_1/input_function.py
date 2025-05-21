@@ -5,3 +5,6 @@ print("hello, " + input("what is your name? "))
 
 language = input("what is your favourite programming language?\n")
 print(f"you selected {language} as your favourite programming language")
+
+sprint = int(input("What is the current sprint?"))
+print(f"current sprint is: {sprint}")

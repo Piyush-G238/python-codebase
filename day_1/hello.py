@@ -9,8 +9,10 @@ name = "Piyush The Developer"
 print(f"Alright, {name} this side")
 
 primaryLanguage = "Java"
+primaryLanguage =5
 print(f"I primarily codes my application in {primaryLanguage}")
+print(type(primaryLanguage))
 
-secondaryLanguage = "Golang"
+secondaryLanguage = "Golang \"programming\""
 print(f"But I also code my application in {secondaryLanguage}")
 
